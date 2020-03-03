@@ -7,19 +7,7 @@ define(function(r,e,m){
                 id:'item_1',
                 name:'知识点1',
                 href:'',
-            },{
-                id:'item_1',
-                name:'知识点1',
-                href:'',
-            },{
-                id:'item_1',
-                name:'知识点1',
-                href:'',
-            },{
-                id:'item_1',
-                name:'知识点1',
-                href:'',
-            }]
-        }]
+            },]
+        },]
     }
 })

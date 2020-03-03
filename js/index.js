@@ -1,5 +1,9 @@
 define(function(require,exports,module){
-    var list = require('../data/listdata.js').list1;
+    var method = require('../js/method');
+    var list1 = require('../data/listdata.js').list1;
+    var list2 = require('../data/listdata.js').list2;
+    var list = list1;  //初始设置为list1
+    var list = method.getQuery().type==='1'? list1:list2;   //根据参数设置list
     var content = document.getElementsByClassName('content')[0];
     
     var listLen = list.length;
